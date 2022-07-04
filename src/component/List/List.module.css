@@ -1,0 +1,56 @@
+.List {
+    display: flex;
+    justify-content: center;
+}
+.BtnContainer {
+    display: flex;
+    justify-content: space-between;
+    margin: 5px;
+    align-items: center;
+}
+.itemDone{
+    color:white;
+    font-weight: bold;
+}
+.itemContainer{
+    display: flex; 
+    justify-content: space-between;
+    align-items: center;
+    margin: 5px;
+    padding: 5px;
+    border-radius: 5px;
+    background: linear-gradient(
+        90deg,
+        rgb(133, 209, 239) 0%,
+        rgb(6, 157, 216) 100%
+    );
+    width: 100%;  
+}    
+.deleteIcon{
+    background-color: crimson;
+    color: white;
+}   
+.doneIcon{
+    background-color: forestgreen;
+    color: white;
+}
+.upIcon{
+    background-color:rgb(84, 81, 81) ;
+    color: white;
+}
+.downIcon{
+    background-color:rgb(84, 81, 81) ;
+    color: white;
+}
+.editIcon{
+    color:white;
+    background: black;
+}
+.cancelIcon{
+    color: white;
+    background: black;
+}
+.saveIcon{
+    color:white;
+    background: black;
+}

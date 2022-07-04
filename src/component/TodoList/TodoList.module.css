@@ -1,0 +1,20 @@
+.inputfield{
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+    padding: 8px;
+    background-color:rgb(23, 22, 23);
+    border-radius: 15px;
+}
+.plusIcon{
+    background-color: #2294eb;
+    color: white;
+    font-size: large;
+    width: 50px;
+}
+.listContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 350px;
+}
